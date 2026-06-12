@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究途中経過発表 - HUDグラスの製作</title>
+    <style>
+        /* 背景を黒、文字を白にする設定 */
+        body {
+            background-color: #121212; /* 完全な黒より少し優しいダークグレー */
+            color: #ffffff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e1e1e; /* コンテンツの背景を少し明るく */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        h1, h2, h3 {
+            color: #00ffcc; /* アクセントカラー（HUDっぽいサイバーな緑/青） */
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* 進捗バーの見た目 */
+        .progress-container {
+            background-color: #333;
+            border-radius: 20px;
+            position: relative;
+            height: 25px;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .progress-bar {
+            background-color: #00ffcc;
+            height: 100%;
+            border-radius: 20px;
+            width: 50%; /* ここを進捗に合わせて変える */
+            text-align: center;
+            line-height: 25px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* 画像リンクのスタイル */
+        .clickable-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .clickable-image img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00ffcc;
+            border-radius: 5px;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .clickable-image img:hover {
+            transform: scale(1.02); /* マウスを乗せたら少し大きく */
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>研究途中経過発表</h1>
+    <p><strong>課題研究テーマ：</strong>HUDグラスの製作</p>
+    <p>本研究では、ヘッドアップディスプレイ（HUD）の技術を利用したHUDグラスの製作を行っています。視線を大きく動かさずに情報を確認できる装置の実現を目標としています。</p>
+
+    <div class="clickable-image">
+        <a href="#activity-report">
+            <img src="your-image.jpg" alt="活動報告へ移動する画像" width="400">
+        </a>
+        <p style="font-size: 0.9rem; color: #aaa;">▲ 画像をクリックすると活動報告へ移動します</p>
+    </div>
+
+    <h2>現在の進捗状況：50%</h2>
+    <div class="progress-container">
+        <div class="progress-bar">50%</div>
+    </div>
+
+    <ul>
+        <li>研究テーマ決定：<strong>完了</strong></li>
+        <li>設計図作成：<strong>完了</strong></li>
+        <li>部品選定：<strong>完了</strong></li>
+        <li>M5StickS3動作確認：<strong>完了</strong></li>
+        <li>HUDグラス本体製作：<span style="color: #ff9900;">準備中</span></li>
+        <li>表示プログラム作成：<span style="color: #ff9900;">準備中</span></li>
+    </ul>
+
+    <hr style="border: 0; border-top: 1px solid #333; margin: 4px 0;">
+
+    <h2 id="activity-report">活動報告</h2>
+    
+    <h3>第1回活動</h3>
+    <p>グループで課題研究のテーマについて話し合い、どのような作品を製作するかを検討しました。その結果、最終的にHUDグラスを製作することに決定しました。</p>
+
+    <h3>第2回活動</h3>
+    <p>HUDグラスを製作するための設計図を作成し、必要な部品や材料について検討しました。</p>
+    <h4>使用部品</h4>
+    <ul>
+        <li>M5StickS3</li>
+        <li>カードルーペ拡大シート</li>
+        <li>アクリル板（210×297×1mm）×3枚</li>
+        <li>ヘッドアップディスプレー（HUD）フィルム</li>
+    </ul>
+    <p>検討の結果、上記4点を使用することに決定しました。</p>
+
+    <h3>第3回活動</h3>
+    <p>M5StickS3の動作確認を行いました。簡単なプログラムを作成し、画面全体を赤色に表示する実験を実施しました。<br>
+    結果として正常に赤色表示できることを確認し、M5StickS3が問題なく動作することを確認しました。</p>
+
+    <hr style="border: 0; border-top: 1px solid #333; margin: 4px 0;">
+
+    <h2>今後の予定</h2>
+    <ul>
+        <li>HUDグラス本体の製作</li>
+        <li>アクリル板とHUDフィルムの加工</li>
+        <li>表示プログラムの開発</li>
+        <li>動作確認と改良</li>
+        <li>最終発表資料の作成</li>
+    </ul>
+</div>
+
+</body>
+</html>
